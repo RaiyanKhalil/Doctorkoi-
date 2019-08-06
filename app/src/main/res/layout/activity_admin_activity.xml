@@ -10,45 +10,55 @@
     <EditText
         android:id="@+id/t1"
         android:layout_width="380dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="218dp"
-        android:layout_centerHorizontal="true"
-        android:hint="Enter Name" />
+        android:layout_marginTop="134dp"
+        android:background="#EDF5E1"
+        android:hint="Enter Name"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/t2"
         android:layout_width="380dp"
-        android:layout_height="wrap_content"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginStart="1dp"
         android:layout_marginLeft="1dp"
-        android:layout_marginTop="281dp"
-        android:hint="Enter Specialty" />
+        android:layout_marginTop="182dp"
+        android:background="#EDF5E1"
+        android:hint="Enter Specialty"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
 
     <EditText
         android:id="@+id/t3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
+        android:layout_width="380dp"
+        android:layout_height="40dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="-1dp"
-        android:layout_marginLeft="-1dp"
-        android:layout_marginTop="367dp"
-        android:hint="Enter Area" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginTop="232dp"
+        android:background="#EDF5E1"
+        android:hint="Enter Area"
+        android:textAlignment="center"
+        android:textColor="@android:color/black" />
 
     <Button
         android:id="@+id/insertData"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="115dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="206dp"
+        android:background="#05386B"
+        android:onClick="addRecord"
         android:text="Insert Data"
-        android:onClick="addRecord"/>
+        android:textColor="#EDF5E1" />
 
 </RelativeLayout>

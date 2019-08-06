@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     android:background="#5CDB95"
     tools:context=".MainActivity">
+    <ImageView
+        android:id="@+id/simpleImageView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/docimg" />
 
     <EditText
         android:id="@+id/userName"
